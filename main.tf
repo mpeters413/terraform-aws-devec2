@@ -4,7 +4,7 @@ terraform {
 
 variable "vault_addr" {
   description = "vault address"
-  default = ""
+  default = "http://mattspeters-benchmark-vault-elb-1366644832.us-east-1.elb.amazonaws.com:8200/"
   }
 
 # Set VAULT_TOKEN environment variable
